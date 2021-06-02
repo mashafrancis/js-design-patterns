@@ -1,0 +1,33 @@
+{
+  "name": "problem-solving-js",
+  "version": "3.0.0",
+  "main": "index.js",
+  "author": "Francis Masha",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "yarn lint -- --fix"
+  },
+  "description": "ESLint config used",
+  "keywords": [
+    "eslint",
+    "lint",
+    "config"
+  ],
+  "peerDependencies": {
+    "babel-eslint": ">=10",
+    "eslint": ">=7",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-prettier": ">=3",
+    "prettier": ">=2.2"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": ">=7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
