@@ -22,14 +22,14 @@ function ToyCar(toyObj) {
 }
 
 const toyFactory = new ToyFactory();
-var car = toyFactory.createToy({
+let car = toyFactory.createToy({
   toyType: "car",
   color: "blue",
   price: 12,
   name: "honda",
 });
 
-var car = toyFactory.createToy({
+car = toyFactory.createToy({
   toyType: "car",
   color: "blue",
   price: 12,
