@@ -22,7 +22,7 @@ module.exports = {
     "prettier/prettier": [
       1,
       {
-        printWidth: 100,
+        printWidth: 120,
         singleQuote: false,
         trailingComma: "all",
       },
